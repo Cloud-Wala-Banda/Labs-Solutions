@@ -26,7 +26,7 @@ gcloud config set compute/zone $ZONE
 
 gcloud container clusters create --machine-type=e2-medium --zone=$ZONE lab-cluster
 
-gcloud container clusters get-credentials lab-cluster
+gcloud container clusters get-credentials lab-cluster --zone=$ZONE
 
 kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1.0
 
@@ -34,7 +34,7 @@ kubectl expose deployment hello-server --type=LoadBalancer --port 8080
 
 sleep 70
 
-gcloud container clusters delete lab-cluster
+gcloud container clusters delete lab-cluster --zone=$ZONE
 
 echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${GREEN}${BOLD}Completing the Lab !!!${RESET}"
 
