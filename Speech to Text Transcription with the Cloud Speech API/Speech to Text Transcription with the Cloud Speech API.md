@@ -5,7 +5,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Speech%20to%20Text%20Transcription%20with%20the%20Cloud%20Speech%20API/gsp048-1.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Speech%20to%20Text%20Transcription%20with%20the%20Cloud%20Speech%20API/gsp048-1.sh
 
 sudo chmod +x gsp048-1.sh
 
@@ -17,7 +17,7 @@ sudo chmod +x gsp048-1.sh
 ### Run again the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Speech%20to%20Text%20Transcription%20with%20the%20Cloud%20Speech%20API/gsp048-2.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Speech%20to%20Text%20Transcription%20with%20the%20Cloud%20Speech%20API/gsp048-2.sh
 
 sudo chmod +x gsp048-2.sh
 
@@ -30,6 +30,6 @@ sudo chmod +x gsp048-2.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

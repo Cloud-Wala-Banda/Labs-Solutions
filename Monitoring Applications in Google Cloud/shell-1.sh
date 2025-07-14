@@ -77,7 +77,7 @@ gcloud app create --region=$REGION
 
 gcloud app deploy --version=one --quiet
 
-gcloud compute instances create quickgcplab \
+gcloud compute instances create cloudwalabanda \
     --zone=us-south1-b \
     --machine-type=e2-medium
 

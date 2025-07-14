@@ -9,7 +9,7 @@ export REPO=
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Arcade%20Hero%20Enter%20the%20Artifact%20Registry%20Container/arc150.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Arcade%20Hero%20Enter%20the%20Artifact%20Registry%20Container/arc150.sh
 
 sudo chmod +x arc150.sh
 
@@ -22,6 +22,6 @@ sudo chmod +x arc150.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

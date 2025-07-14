@@ -5,7 +5,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Fraud%20Detection%20on%20Financial%20Transactions%20with%20Machine%20Learning%20on%20Google%20Cloud/gsp774.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Fraud%20Detection%20on%20Financial%20Transactions%20with%20Machine%20Learning%20on%20Google%20Cloud/gsp774.sh
 
 sudo chmod +x *.sh
 
@@ -18,8 +18,7 @@ Your hard work and determination paid off! 💻
 You've successfully completed the lab. **Way to go!** 🚀
 
 ### 💬 Stay Connected with Our Community!  
-👉 Join the conversation and never miss an update:  
-📢 [Telegram Channel](https://t.me/quickgcplab)  
-👥 [Discussion Group](https://t.me/quickgcplabchats)  
+👉 Join the conversation and never miss an update:  📢 [Telegram Channel](https://t.me/cloudwalabanda)  
+👥 [Discussion Group](https://t.me/cloudwalabandachats)  
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

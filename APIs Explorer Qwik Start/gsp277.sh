@@ -29,7 +29,7 @@ export BUCKET="$(gcloud config get-value project)"
 
 gsutil mb -p $BUCKET gs://$BUCKET-bucket
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/APIs%20Explorer%20Qwik%20Start/demo-image.jpg
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/APIs%20Explorer%20Qwik%20Start/demo-image.jpg
 
 gsutil cp demo-image.jpg gs://$BUCKET-bucket/demo-image.jpg
 

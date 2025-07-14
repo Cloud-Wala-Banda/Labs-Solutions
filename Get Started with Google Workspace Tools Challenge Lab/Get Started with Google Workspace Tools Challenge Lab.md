@@ -8,9 +8,9 @@
 
 2. In the `General` tab, scroll down to the `Signature` section and click `Create New`.
 
-3. Give this signature `quickgcplab` name, then click `Create`.
+3. Give this signature `cloudwalabanda` name, then click `Create`.
 
-4. In the Signature defaults section, use the dropdown menu under `For New Emails Use` and select `quickgcplab`.
+4. In the Signature defaults section, use the dropdown menu under `For New Emails Use` and select `cloudwalabanda`.
 
 * Paste the following
 
@@ -96,7 +96,7 @@ Comments
 
 2. Select `App` > `Blank app`.
 
-3. For `App name`, type `quickgcplab` to name your app.
+3. For `App name`, type `cloudwalabanda` to name your app.
 
 4. For `Category`, select `Education & Training` from the list.
 
@@ -108,6 +108,6 @@ Comments
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

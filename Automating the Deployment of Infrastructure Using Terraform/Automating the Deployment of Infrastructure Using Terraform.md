@@ -7,11 +7,11 @@
 export ZONE=
 ```
 ```
-curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/quickgcplab.sh
+curl -LO https://raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/cloudwalabanda.sh
 
-sudo chmod +x quickgcplab.sh
+sudo chmod +x cloudwalabanda.sh
 
-./quickgcplab.sh
+./cloudwalabanda.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !
@@ -20,6 +20,6 @@ sudo chmod +x quickgcplab.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

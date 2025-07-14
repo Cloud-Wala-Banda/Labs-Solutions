@@ -69,8 +69,8 @@ $PROJECT_NUMBER-compute@developer.gserviceaccount.com \
 
 # Step 4: Configure Git user details
 echo "${BOLD}${YELLOW}Setting up Git configuration...${RESET}"
-git config --global user.email "quickgcplab@gmail.com"
-git config --global user.name "quickgcplab"
+git config --global user.email "cloudwalabanda@gmail.com"
+git config --global user.name "cloudwalabanda"
 
 # Step 5: Clone the repository
 echo "${BOLD}${MAGENTA}Cloning the software-delivery-workshop repository...${RESET}"

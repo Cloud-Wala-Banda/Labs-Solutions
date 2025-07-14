@@ -109,7 +109,7 @@ curl -X POST \
 
 # Step 11: Create VM Instance
 echo "${BOLD}${MAGENTA}Creating VM Instance...${RESET}"
-gcloud compute instances create quickgcplab \
+gcloud compute instances create cloudwalabanda \
     --project=$DEVSHELL_PROJECT_ID \
     --zone=$ZONE \
     --machine-type=e2-micro \
@@ -120,7 +120,7 @@ gcloud compute instances create quickgcplab \
     --service-account=$PROJECT_NUMBER-compute@developer.gserviceaccount.com \
     --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/trace.append \
     --tags=http-server \
-    --create-disk=auto-delete=yes,boot=yes,device-name=quickgcplab,image=projects/debian-cloud/global/images/debian-12-bookworm-v20250415,mode=rw,size=10,type=pd-balanced \
+    --create-disk=auto-delete=yes,boot=yes,device-name=cloudwalabanda,image=projects/debian-cloud/global/images/debian-12-bookworm-v20250415,mode=rw,size=10,type=pd-balanced \
     --no-shielded-secure-boot \
     --shielded-vtpm \
     --shielded-integrity-monitoring \
@@ -142,7 +142,7 @@ gcloud compute resource-policies create snapshot-schedule default-schedule-1 \
     --daily-schedule \
     --start-time=17:00 \
 && \
-gcloud compute disks add-resource-policies quickgcplab \
+gcloud compute disks add-resource-policies cloudwalabanda \
     --project=$DEVSHELL_PROJECT_ID \
     --zone=$ZONE \
     --resource-policies=projects/$DEVSHELL_PROJECT_ID/regions/$REGION/resourcePolicies/default-schedule-1

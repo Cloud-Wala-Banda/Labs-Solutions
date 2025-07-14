@@ -10,7 +10,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Build%20and%20Deploy%20a%20Docker%20Image%20to%20a%20Kubernetes%20Cluster%20Challenge%20Lab/gsp304.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Build%20and%20Deploy%20a%20Docker%20Image%20to%20a%20Kubernetes%20Cluster%20Challenge%20Lab/gsp304.sh
 
 sudo chmod +x gsp304.sh
 
@@ -23,6 +23,6 @@ sudo chmod +x gsp304.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

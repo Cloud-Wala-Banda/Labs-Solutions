@@ -4,11 +4,11 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Working%20with%20the%20Google%20Cloud%20Console%20and%20Cloud%20Shell/quickgcplab.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Working%20with%20the%20Google%20Cloud%20Console%20and%20Cloud%20Shell/cloudwalabanda.sh
 
-sudo chmod +x quickgcplab.sh
+sudo chmod +x cloudwalabanda.sh
 
-./quickgcplab.sh
+./cloudwalabanda.sh
 ```
 
 ### Congratulations 🎉 for Completing the Lab !
@@ -17,6 +17,6 @@ sudo chmod +x quickgcplab.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

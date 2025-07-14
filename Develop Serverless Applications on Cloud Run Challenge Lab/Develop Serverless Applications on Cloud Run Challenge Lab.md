@@ -17,7 +17,7 @@ export FRONTEND_PRODUCTION_SERVICE=
 ## 💻 Execute These Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Develop%20Serverless%20Applications%20on%20Cloud%20Run%20Challenge%20Lab/gsp328.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Develop%20Serverless%20Applications%20on%20Cloud%20Run%20Challenge%20Lab/gsp328.sh
 
 sudo chmod +x gsp328.sh
 
@@ -30,6 +30,6 @@ sudo chmod +x gsp328.sh
 
 #### **Amazing job—your hard work has paid off!**
 
-#### Stay Connected [Telegram Channel](https://t.me/quickgcplab) for updates! & [Discussion group](https://t.me/quickgcplabchats) to connect with other learners.
+#### Stay Connected [Telegram Channel](https://t.me/cloudwalabanda) for updates! & [Discussion group](https://t.me/cloudwalabandachats) to connect with other learners.
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

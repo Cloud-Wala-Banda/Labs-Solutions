@@ -19,7 +19,7 @@ gcloud --version
 gcloud auth login --no-launch-browser --quiet
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gCloud%20-%20Azure/gsp1119-1.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gCloud%20-%20Azure/gsp1119-1.sh
 sudo chmod +x gsp1119-1.sh
 ./gsp1119-1.sh
 ```
@@ -27,7 +27,7 @@ sudo chmod +x gsp1119-1.sh
 user2
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gCloud%20-%20Azure/gsp1119-2.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gCloud%20-%20Azure/gsp1119-2.sh
 sudo chmod +x gsp1119-2.sh
 ./gsp1119-2.sh
 ```
@@ -39,6 +39,6 @@ sudo chmod +x gsp1119-2.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

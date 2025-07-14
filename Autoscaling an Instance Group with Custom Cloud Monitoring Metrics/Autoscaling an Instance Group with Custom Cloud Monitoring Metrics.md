@@ -8,7 +8,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Autoscaling%20an%20Instance%20Group%20with%20Custom%20Cloud%20Monitoring%20Metrics/gsp087.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Autoscaling%20an%20Instance%20Group%20with%20Custom%20Cloud%20Monitoring%20Metrics/gsp087.sh
 
 sudo chmod +x gsp087.sh
 
@@ -21,6 +21,6 @@ sudo chmod +x gsp087.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

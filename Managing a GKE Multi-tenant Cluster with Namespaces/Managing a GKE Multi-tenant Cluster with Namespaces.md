@@ -8,7 +8,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Managing%20a%20GKE%20Multi-tenant%20Cluster%20with%20Namespaces/gsp766.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Managing%20a%20GKE%20Multi-tenant%20Cluster%20with%20Namespaces/gsp766.sh
 
 sudo chmod +x gsp766.sh
 
@@ -21,6 +21,6 @@ sudo chmod +x gsp766.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

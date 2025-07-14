@@ -5,7 +5,7 @@
 #### 1️⃣ Download and Execute the Script  
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Set%20Up%20Network%20and%20Application%20Load%20Balancers/gsp007.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Set%20Up%20Network%20and%20Application%20Load%20Balancers/gsp007.sh
 
 sudo chmod +x *.sh
 
@@ -19,7 +19,7 @@ sudo chmod +x *.sh
 #### *Well done!*
 
 #### 📢 **Join the GCP Learning Community:**  
-- 🌐 [Telegram Channel](https://t.me/quickgcplab)  
-- 💬 [Discussion Group](https://t.me/quickgcplabchats)
+- 🌐 [Telegram Channel](https://t.me/cloudwalabanda)  
+- 💬 [Discussion Group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

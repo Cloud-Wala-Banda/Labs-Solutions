@@ -5,7 +5,7 @@
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Connect%20to%20Cloud%20SQL%20from%20an%20Application%20in%20Google%20Kubernetes%20Engine/gsp449.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Connect%20to%20Cloud%20SQL%20from%20an%20Application%20in%20Google%20Kubernetes%20Engine/gsp449.sh
 
 sudo chmod +x *.sh
 
@@ -21,8 +21,7 @@ You've successfully completed the lab. Way to go! 🚀
 
 👉 Join the conversation and never miss an update:  
 
-💚 [WhatsApp Community](https://chat.whatsapp.com/ECJ9h8GA3CA1ksaI9m5NrX)  
-📢 [Telegram Channel](https://t.me/quickgcplab)  
-👥 [Discussion Group](https://t.me/quickgcplabchats)  
+💚 [WhatsApp Community](https://chat.whatsapp.com/ECJ9h8GA3CA1ksaI9m5NrX)  📢 [Telegram Channel](https://t.me/cloudwalabanda)  
+👥 [Discussion Group](https://t.me/cloudwalabandachats)  
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

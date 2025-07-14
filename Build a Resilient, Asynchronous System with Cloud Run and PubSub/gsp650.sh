@@ -74,15 +74,15 @@ npm install @google-cloud/pubsub
 echo "${BOLD}${GREEN}Replacing default files with lab-specific files${RESET}"
 rm package.json
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/lab-service/package.json
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/lab-service/package.json
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/lab-service/index.js
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/lab-service/index.js
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/lab-service/Dockerfile
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/lab-service/Dockerfile
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/lab-service/deploy.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/lab-service/deploy.sh
 
-curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/lab-service/post-reports.sh
+curl -LO https://raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/lab-service/post-reports.sh
 
 # Step 8: Deploy Lab Service
 echo "${BOLD}${BLUE}Deploying lab-service${RESET}"
@@ -110,13 +110,13 @@ npm install body-parser
 echo "${BOLD}${RED}Replacing email-service files with lab versions${RESET}"
 rm package.json
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/email-service/package.json
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/email-service/package.json
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/email-service/index.js
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/email-service/index.js
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/email-service/Dockerfile
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/email-service/Dockerfile
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/email-service/deploy.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/email-service/deploy.sh
 
 # Step 13: Deploy Email Service
 echo "${BOLD}${GREEN}Deploying email-service${RESET}"
@@ -161,13 +161,13 @@ npm install body-parser
 echo "${BOLD}${YELLOW}Replacing sms-service files with lab versions${RESET}"
 rm package.json
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/sms-service/package.json
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/sms-service/package.json
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/sms-service/index.js
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/sms-service/index.js
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/sms-service/Dockerfile
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/sms-service/Dockerfile
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/sms-service/deploy.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Resilient%2C%20Asynchronous%20System%20with%20Cloud%20Run%20and%20PubSub/sms-service/deploy.sh
 
 # Step 22: Deploy SMS Service
 echo "${BOLD}${MAGENTA}Deploying sms-service${RESET}"

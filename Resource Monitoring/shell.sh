@@ -28,7 +28,7 @@ echo "${BG_MAGENTA}${BOLD}Starting Execution${RESET}"
 cat > email-channel.json <<EOF_END
 {
   "type": "email",
-  "displayName": "quickgcplab",
+  "displayName": "cloudwalabanda",
   "description": "Awesome",
   "labels": {
     "email_address": "$USER_EMAIL"
@@ -42,9 +42,9 @@ gcloud beta monitoring channels create --channel-content-from-file="email-channe
 email_channel_info=$(gcloud beta monitoring channels list)
 email_channel_id=$(echo "$email_channel_info" | grep -oP 'name: \K[^ ]+' | head -n 1)
 
-cat > quickgcplab.json <<EOF_END
+cat > cloudwalabanda.json <<EOF_END
 {
-  "displayName": "quickgcplab",
+  "displayName": "cloudwalabanda",
   "userLabels": {},
   "conditions": [
     {
@@ -101,7 +101,7 @@ cat > quickgcplab.json <<EOF_END
 EOF_END
 
 # Create the alert policy
-gcloud alpha monitoring policies create --policy-from-file=quickgcplab.json
+gcloud alpha monitoring policies create --policy-from-file=cloudwalabanda.json
 
 echo "${BG_RED}${BOLD}Congratulations For Completing The Lab !!!${RESET}"
 

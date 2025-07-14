@@ -7,7 +7,7 @@
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Monitoring%20and%20Logging%20for%20Cloud%20Run%20Functions/gsp092.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Monitoring%20and%20Logging%20for%20Cloud%20Run%20Functions/gsp092.sh
 
 sudo chmod +x *.sh
 
@@ -23,8 +23,7 @@ You've successfully completed the lab. **Way to go!** 🚀
 
 👉 Join the conversation and never miss an update:
 
-💚 [𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆](https://chat.whatsapp.com/ECJ9h8GA3CA1ksaI9m5NrX)
-📢 [Telegram Channel](https://t.me/quickgcplab)
-👥 [Discussion Group](https://t.me/quickgcplabchats)
+📢 [Telegram Channel](https://t.me/cloudwalabanda)
+👥 [Discussion Group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

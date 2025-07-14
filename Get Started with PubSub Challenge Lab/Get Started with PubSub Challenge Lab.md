@@ -13,7 +13,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Get%20Started%20with%20PubSub%20Challenge%20Lab/form_1.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Get%20Started%20with%20PubSub%20Challenge%20Lab/form_1.sh
 
 sudo chmod +x form_1.sh
 
@@ -37,7 +37,7 @@ sudo chmod +x form_1.sh
 export LOCATION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Get%20Started%20with%20PubSub%20Challenge%20Lab/form_2.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Get%20Started%20with%20PubSub%20Challenge%20Lab/form_2.sh
 
 sudo chmod +x form_2.sh
 
@@ -60,7 +60,7 @@ sudo chmod +x form_2.sh
 export LOCATION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Get%20Started%20with%20PubSub%20Challenge%20Lab/form_3.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Get%20Started%20with%20PubSub%20Challenge%20Lab/form_3.sh
 
 sudo chmod +x form_3.sh
 
@@ -76,6 +76,6 @@ sudo chmod +x form_3.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

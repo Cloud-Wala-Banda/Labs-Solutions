@@ -5,7 +5,7 @@
 ### 🚀 Run the following commands in **Cloud Shell**:
 
 ```bash
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Mini%20lab%20Cloud%20Storage%202/shell.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Mini%20lab%20Cloud%20Storage%202/shell.sh
 
 sudo chmod +x shell.sh
 
@@ -18,6 +18,6 @@ sudo chmod +x shell.sh
 
 #### *Keep up the momentum—big things are on the horizon!*
 
-#### Don’t forget to join the [Telegram Channel](https://t.me/quickgcplab) 📱 & [Discussion Group](https://t.me/quickgcplabchats) 
+#### Don’t forget to join the [Telegram Channel](https://t.me/cloudwalabanda) 📱 & [Discussion Group](https://t.me/cloudwalabandachats) 
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

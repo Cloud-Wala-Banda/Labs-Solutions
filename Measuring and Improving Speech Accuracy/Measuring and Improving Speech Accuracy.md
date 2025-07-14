@@ -8,7 +8,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Measuring%20and%20Improving%20Speech%20Accuracy/gsp758.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Measuring%20and%20Improving%20Speech%20Accuracy/gsp758.sh
 
 sudo chmod +x gsp758.sh
 
@@ -31,6 +31,6 @@ gsutil cp gs://spls/gsp758/notebook/simple_wer_v2.py .
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

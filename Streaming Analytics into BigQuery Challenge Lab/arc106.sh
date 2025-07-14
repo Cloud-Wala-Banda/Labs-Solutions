@@ -66,10 +66,10 @@ while true; do
     fi
 done
 
-gcloud dataflow jobs run $JOB-quickgcplab --gcs-location gs://dataflow-templates-$REGION/latest/PubSub_to_BigQuery --region=$REGION --project=$PROJECT_ID --staging-location gs://$PROJECT_ID/temp --parameters inputTopic=projects/$PROJECT_ID/topics/$TOPIC,outputTableSpec=$PROJECT_ID:$DATASET.$TABLE
+gcloud dataflow jobs run $JOB-cloudwalabanda --gcs-location gs://dataflow-templates-$REGION/latest/PubSub_to_BigQuery --region=$REGION --project=$PROJECT_ID --staging-location gs://$PROJECT_ID/temp --parameters inputTopic=projects/$PROJECT_ID/topics/$TOPIC,outputTableSpec=$PROJECT_ID:$DATASET.$TABLE
 
 while true; do
-    STATUS=$(gcloud dataflow jobs list --region=$REGION --project=$PROJECT_ID --filter="name:$JOB-quickgcplab AND state:Running" --format="value(state)")
+    STATUS=$(gcloud dataflow jobs list --region=$REGION --project=$PROJECT_ID --filter="name:$JOB-cloudwalabanda AND state:Running" --format="value(state)")
     
     if [ "$STATUS" == "Running" ]; then
         echo "The Dataflow job is running successfully"

@@ -8,7 +8,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Deploying%20Redis%20Enterprise%20for%20GKE%20and%20Serverless%20App%20on%20GDCV%20on%20Bare%20Metal/gsp938.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Deploying%20Redis%20Enterprise%20for%20GKE%20and%20Serverless%20App%20on%20GDCV%20on%20Bare%20Metal/gsp938.sh
 
 sudo chmod +x gsp938.sh
 
@@ -21,6 +21,6 @@ sudo chmod +x gsp938.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

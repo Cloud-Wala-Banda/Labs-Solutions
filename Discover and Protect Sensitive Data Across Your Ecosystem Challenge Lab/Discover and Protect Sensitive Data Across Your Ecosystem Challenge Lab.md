@@ -7,7 +7,7 @@
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Discover%20and%20Protect%20Sensitive%20Data%20Across%20Your%20Ecosystem%20Challenge%20Lab/gsp522.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Discover%20and%20Protect%20Sensitive%20Data%20Across%20Your%20Ecosystem%20Challenge%20Lab/gsp522.sh
 
 sudo chmod +x *.sh
 
@@ -19,7 +19,7 @@ sudo chmod +x *.sh
 ```
 rm deidentify-model-response-challenge-lab-v1.0.0.ipynb
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Discover%20and%20Protect%20Sensitive%20Data%20Across%20Your%20Ecosystem%20Challenge%20Lab/deidentify-model-response-challenge-lab-v1.0.0.ipynb
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Discover%20and%20Protect%20Sensitive%20Data%20Across%20Your%20Ecosystem%20Challenge%20Lab/deidentify-model-response-challenge-lab-v1.0.0.ipynb
 ```
 
 # 🎉 Woohoo! You Did It! 🎉
@@ -31,8 +31,7 @@ You've successfully completed the lab. **Way to go!** 🚀
 
 👉 Join the conversation and never miss an update:
 
-💚 [𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆](https://chat.whatsapp.com/ECJ9h8GA3CA1ksaI9m5NrX)
-📢 [Telegram Channel](https://t.me/quickgcplab)
-👥 [Discussion Group](https://t.me/quickgcplabchats)
+📢 [Telegram Channel](https://t.me/cloudwalabanda)
+👥 [Discussion Group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

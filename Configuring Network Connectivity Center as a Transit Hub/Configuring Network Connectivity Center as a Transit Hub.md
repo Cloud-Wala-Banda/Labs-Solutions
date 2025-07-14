@@ -8,7 +8,7 @@
 export ZONE_2=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Configuring%20Network%20Connectivity%20Center%20as%20a%20Transit%20Hub/gsp911.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Configuring%20Network%20Connectivity%20Center%20as%20a%20Transit%20Hub/gsp911.sh
 
 sudo chmod +x gsp911.sh
 
@@ -23,6 +23,6 @@ sudo chmod +x gsp911.sh
 
 #### *Keep striving for success—new heights await you! 🚀*
 
-#### **Stay connected and join us:** [Telegram Channel](https://t.me/quickgcplab) & [Discussion Group](https://t.me/quickgcplabchats) 
+#### **Stay connected and join us:** [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion Group](https://t.me/cloudwalabandachats) 
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

@@ -60,9 +60,9 @@ export REGION=$(gcloud compute project-info describe \
 echo "${BOLD}${YELLOW}Enabling OS Config API${RESET}"
 gcloud services enable osconfig.googleapis.com
 
-# Step 6: Create quickgcplab VM
-echo "${BOLD}${CYAN}Creating VM: quickgcplab${RESET}"
-gcloud compute instances create quickgcplab \
+# Step 6: Create cloudwalabanda VM
+echo "${BOLD}${CYAN}Creating VM: cloudwalabanda${RESET}"
+gcloud compute instances create cloudwalabanda \
     --project=$PROJECT_ID \
     --zone=$ZONE \
     --machine-type=e2-medium \
@@ -72,7 +72,7 @@ gcloud compute instances create quickgcplab \
     --provisioning-model=STANDARD \
     --service-account=$PROJECT_NUMBER-compute@developer.gserviceaccount.com \
     --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/trace.append \
-    --create-disk=auto-delete=yes,boot=yes,device-name=quickgcplab,image=projects/debian-cloud/global/images/debian-12-bookworm-v20250513,mode=rw,size=10,type=pd-balanced \
+    --create-disk=auto-delete=yes,boot=yes,device-name=cloudwalabanda,image=projects/debian-cloud/global/images/debian-12-bookworm-v20250513,mode=rw,size=10,type=pd-balanced \
     --no-shielded-secure-boot \
     --shielded-vtpm \
     --shielded-integrity-monitoring \
@@ -94,14 +94,14 @@ gcloud compute resource-policies create snapshot-schedule default-schedule-1 \
     --daily-schedule \
     --start-time=22:00 \
 && \
-gcloud compute disks add-resource-policies quickgcplab \
+gcloud compute disks add-resource-policies cloudwalabanda \
     --project=$PROJECT_ID \
     --zone=$ZONE \
     --resource-policies=projects/$PROJECT_ID/regions/$REGION/resourcePolicies/default-schedule-1
 
 # Step 7: Create Windows VM
-echo "${BOLD}${YELLOW}Creating VM: quickgcplab-windows-vm${RESET}"
-gcloud compute instances create quickgcplab-windows-vm \
+echo "${BOLD}${YELLOW}Creating VM: cloudwalabanda-windows-vm${RESET}"
+gcloud compute instances create cloudwalabanda-windows-vm \
     --project=$PROJECT_ID \
     --zone=$ZONE \
     --machine-type=e2-medium \
@@ -112,7 +112,7 @@ gcloud compute instances create quickgcplab-windows-vm \
     --service-account=$PROJECT_NUMBER-compute@developer.gserviceaccount.com \
     --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/trace.append \
     --tags=http-server,https-server \
-    --create-disk=auto-delete=yes,boot=yes,device-name=quickgcplab-windows-vm,disk-resource-policy=projects/$PROJECT_ID/regions/$REGION/resourcePolicies/default-schedule-1,image=projects/windows-cloud/global/images/windows-server-2016-dc-core-v20250514,mode=rw,size=64,type=pd-ssd \
+    --create-disk=auto-delete=yes,boot=yes,device-name=cloudwalabanda-windows-vm,disk-resource-policy=projects/$PROJECT_ID/regions/$REGION/resourcePolicies/default-schedule-1,image=projects/windows-cloud/global/images/windows-server-2016-dc-core-v20250514,mode=rw,size=64,type=pd-ssd \
     --no-shielded-secure-boot \
     --shielded-vtpm \
     --shielded-integrity-monitoring \
@@ -120,8 +120,8 @@ gcloud compute instances create quickgcplab-windows-vm \
     --reservation-affinity=any
 
 # Step 8: Create Custom VM
-echo "${BOLD}${CYAN}Creating VM: quickgcplab-custom-vm${RESET}"
-gcloud compute instances create quickgcplab-custom-vm \
+echo "${BOLD}${CYAN}Creating VM: cloudwalabanda-custom-vm${RESET}"
+gcloud compute instances create cloudwalabanda-custom-vm \
     --project=$PROJECT_ID \
     --zone=$ZONE \
     --machine-type=e2-custom-2-4096 \
@@ -131,7 +131,7 @@ gcloud compute instances create quickgcplab-custom-vm \
     --provisioning-model=STANDARD \
     --service-account=$PROJECT_NUMBER-compute@developer.gserviceaccount.com \
     --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/trace.append \
-    --create-disk=auto-delete=yes,boot=yes,device-name=quickgcplab-custom-vm,disk-resource-policy=projects/$PROJECT_ID/regions/$REGION/resourcePolicies/default-schedule-1,image=projects/debian-cloud/global/images/debian-12-bookworm-v20250513,mode=rw,size=10,type=pd-balanced \
+    --create-disk=auto-delete=yes,boot=yes,device-name=cloudwalabanda-custom-vm,disk-resource-policy=projects/$PROJECT_ID/regions/$REGION/resourcePolicies/default-schedule-1,image=projects/debian-cloud/global/images/debian-12-bookworm-v20250513,mode=rw,size=10,type=pd-balanced \
     --no-shielded-secure-boot \
     --shielded-vtpm \
     --shielded-integrity-monitoring \

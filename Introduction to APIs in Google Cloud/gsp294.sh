@@ -61,7 +61,7 @@ curl -X POST --data-binary @values.json \
 
 # Step 5: Download demo image
 echo "${BOLD}${YELLOW}Downloading demo image...${RESET}"
-curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Introduction%20to%20APIs%20in%20Google%20Cloud/demo-image.png
+curl -LO https://raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Introduction%20to%20APIs%20in%20Google%20Cloud/demo-image.png
 
 # Step 6: Upload demo image to the bucket
 echo "${BOLD}${GREEN}Uploading demo image to the bucket...${RESET}"

@@ -5,7 +5,7 @@
 ### 🚀 **Execute the following commands in Cloud Shell:**
 
 ```bash
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Using%20Google%20Cloud%20Services%20with%20Apigee%20X/gsp845.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Using%20Google%20Cloud%20Services%20with%20Apigee%20X/gsp845.sh
 
 sudo chmod +x gsp845.sh
 
@@ -29,6 +29,6 @@ sudo chmod +x gsp845.sh
 
 #### *Keep pushing forward—great things await! 🚀*
 
-#### Don't miss out on joining the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't miss out on joining the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

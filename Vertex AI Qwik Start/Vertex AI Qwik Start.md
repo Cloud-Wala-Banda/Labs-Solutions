@@ -5,7 +5,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Vertex%20AI%20Qwik%20Start/gsp917.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Vertex%20AI%20Qwik%20Start/gsp917.sh
 
 sudo chmod +x gsp917.sh
 
@@ -29,6 +29,6 @@ pip install openpyxl
 
 #### *Excellent Work—Keep Reaching for New Heights!*  
 
-#### Be part of the community—join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion Group](https://t.me/quickgcplabchats)!  
+#### Be part of the community—join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion Group](https://t.me/cloudwalabandachats)!  
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

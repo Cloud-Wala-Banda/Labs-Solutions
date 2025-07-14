@@ -63,7 +63,7 @@ echo "${MAGENTA}${BOLD}Creating JSON file for the inspect template...${RESET}"
 cat > new-inspect-file.json <<EOF
 {
   "inspectTemplate": {
-    "displayName": "quickgcplab",
+    "displayName": "cloudwalabanda",
     "inspectConfig": {
       "infoTypes": [
         {

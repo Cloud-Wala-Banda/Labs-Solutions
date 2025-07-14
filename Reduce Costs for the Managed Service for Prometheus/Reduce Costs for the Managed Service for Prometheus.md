@@ -5,7 +5,7 @@
 ### 🚀 **Execute the following commands in Cloud Shell:**
 
 ```bash
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Reduce%20Costs%20for%20the%20Managed%20Service%20for%20Prometheus/gsp1027.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Reduce%20Costs%20for%20the%20Managed%20Service%20for%20Prometheus/gsp1027.sh
 
 sudo chmod +x gsp1027.sh
 
@@ -18,6 +18,6 @@ sudo chmod +x gsp1027.sh
 
 #### *The future is bright—keep pushing forward! 🌟*  
 
-#### Don't forget to join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion Group](https://t.me/quickgcplabchats).  
+#### Don't forget to join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion Group](https://t.me/cloudwalabandachats).  
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

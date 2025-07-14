@@ -19,7 +19,7 @@ sudo chmod +x *.sh
 #### *Well done!*
 
 #### 🌟 **Stay Connected for More:**  
-- 💬 Join the [Telegram Channel](https://t.me/quickgcplab)  
-- 🗣️ Participate in the [Discussion Group](https://t.me/quickgcplabchats)
+- 💬 Join the [Telegram Channel](https://t.me/cloudwalabanda)  
+- 🗣️ Participate in the [Discussion Group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

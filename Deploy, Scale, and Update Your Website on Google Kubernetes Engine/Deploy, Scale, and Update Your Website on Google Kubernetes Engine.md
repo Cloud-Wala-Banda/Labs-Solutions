@@ -7,7 +7,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Deploy%2C%20Scale%2C%20and%20Update%20Your%20Website%20on%20Google%20Kubernetes%20Engine/gsp663.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Deploy%2C%20Scale%2C%20and%20Update%20Your%20Website%20on%20Google%20Kubernetes%20Engine/gsp663.sh
 
 sudo chmod +x gsp663.sh
 
@@ -20,6 +20,6 @@ sudo chmod +x gsp663.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

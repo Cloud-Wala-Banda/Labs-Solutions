@@ -8,7 +8,7 @@
 export USER_2=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20a%20Data%20Mesh%20with%20Dataplex%20Challenge%20Lab/gsp514.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20a%20Data%20Mesh%20with%20Dataplex%20Challenge%20Lab/gsp514.sh
 
 sudo chmod +x gsp514.sh
 
@@ -25,6 +25,6 @@ sudo chmod +x gsp514.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

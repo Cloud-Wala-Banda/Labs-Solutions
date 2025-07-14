@@ -17,7 +17,7 @@
 ### Step 1: Download and Run Script Part 1
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Implement%20DevOps%20Workflows%20in%20Google%20Cloud%20Challenge%20Lab/gsp330-1.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Implement%20DevOps%20Workflows%20in%20Google%20Cloud%20Challenge%20Lab/gsp330-1.sh
 
 sudo chmod +x gsp330-1.sh
 
@@ -45,7 +45,7 @@ sudo chmod +x gsp330-1.sh
 ### Step 2: Download and Run Script Part 2
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Implement%20DevOps%20Workflows%20in%20Google%20Cloud%20Challenge%20Lab/gsp330-2.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Implement%20DevOps%20Workflows%20in%20Google%20Cloud%20Challenge%20Lab/gsp330-2.sh
 
 sudo chmod +x gsp330-2.sh
 
@@ -59,7 +59,7 @@ sudo chmod +x gsp330-2.sh
 #### *Keep honing your skills—this is just the beginning of your success!*
 
 💬 **Stay Connected with the Community:**  
-- Join the **[Telegram Channel](https://t.me/quickgcplab)** 📱  
-- Participate in the **[Discussion Group](https://t.me/quickgcplabchats)** 💬
+- Join the **[Telegram Channel](https://t.me/cloudwalabanda)** 📱  
+- Participate in the **[Discussion Group](https://t.me/cloudwalabandachats)** 💬
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

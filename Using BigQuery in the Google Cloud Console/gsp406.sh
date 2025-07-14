@@ -57,7 +57,7 @@ bq --location=us mk --dataset babynames
 
 # Step 3: Downloading Data File
 echo "${MAGENTA}${BOLD}Downloading Data File${RESET}"
-curl -LO  https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Using%20BigQuery%20in%20the%20Google%20Cloud%20Console/yob2014.txt
+curl -LO  https://raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Using%20BigQuery%20in%20the%20Google%20Cloud%20Console/yob2014.txt
 
 # Step 4: Loading Data into BigQuery
 echo "${CYAN}${BOLD}Loading Data into BigQuery${RESET}"

@@ -85,7 +85,7 @@ gcloud compute ssh quickstart-vm --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --q
 cat > email-channel.json <<EOF_END
 {
   "type": "email",
-  "displayName": "quickgcplab",
+  "displayName": "cloudwalabanda",
   "description": "Awesome",
   "labels": {
     "email_address": "$USER_EMAIL"

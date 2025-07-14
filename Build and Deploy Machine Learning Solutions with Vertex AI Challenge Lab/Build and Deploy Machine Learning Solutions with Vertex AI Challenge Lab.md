@@ -9,7 +9,7 @@
 ```
 rm vertex-challenge-lab-v1.0.0.ipynb
 pip3 install -U -r requirements.txt --user
-wget https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20and%20Deploy%20Machine%20Learning%20Solutions%20with%20Vertex%20AI%20Challenge%20Lab/vertex-challenge-lab-v1.0.0.ipynb
+wget https://raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20and%20Deploy%20Machine%20Learning%20Solutions%20with%20Vertex%20AI%20Challenge%20Lab/vertex-challenge-lab-v1.0.0.ipynb
 ```
 3. In the **File Browser** on the left, click on the **vertex-challenge-lab-v1.0.0.ipynb** file.
 
@@ -23,6 +23,6 @@ wget https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/re
 
 #### *Outstanding work! Your commitment has made this accomplishment possible.*  
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion Group](https://t.me/quickgcplabchats).
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion Group](https://t.me/cloudwalabandachats).
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab) 
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda) 

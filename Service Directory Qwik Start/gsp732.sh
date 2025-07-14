@@ -45,7 +45,7 @@ gcloud service-directory endpoints create example-endpoint \
 
 gcloud dns managed-zones create example-zone-name \
    --dns-name myzone.example.com \
-   --description quickgcplab \
+   --description cloudwalabanda \
    --visibility private \
    --networks https://www.googleapis.com/compute/v1/projects/$DEVSHELL_PROJECT_ID/global/networks/default \
    --service-directory-namespace https://servicedirectory.googleapis.com/v1/projects/$DEVSHELL_PROJECT_ID/locations/$LOCATION/namespaces/example-namespace

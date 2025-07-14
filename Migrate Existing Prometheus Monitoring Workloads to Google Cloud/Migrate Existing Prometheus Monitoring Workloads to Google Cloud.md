@@ -5,7 +5,7 @@
 ### 🚀 **Execute the following commands in Cloud Shell:**
 
 ```bash
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Migrate%20Existing%20Prometheus%20Monitoring%20Workloads%20to%20Google%20Cloud/gsp1025.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Migrate%20Existing%20Prometheus%20Monitoring%20Workloads%20to%20Google%20Cloud/gsp1025.sh
 
 sudo chmod +x gsp1025.sh
 
@@ -18,6 +18,6 @@ sudo chmod +x gsp1025.sh
 
 #### *Your journey is just beginning—keep reaching for the stars! 🚀*  
 
-#### Stay connected by joining the [Telegram Channel](https://t.me/quickgcplab) & [Discussion Group](https://t.me/quickgcplabchats).  
+#### Stay connected by joining the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion Group](https://t.me/cloudwalabandachats).  
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

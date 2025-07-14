@@ -7,7 +7,7 @@
 ### Run the following Commands in Terminal
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Introduction%20to%20Computer%20Vision%20with%20TensorFlow/gsp631.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Introduction%20to%20Computer%20Vision%20with%20TensorFlow/gsp631.sh
 
 sudo chmod +x gsp631.sh
 
@@ -20,6 +20,6 @@ sudo chmod +x gsp631.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

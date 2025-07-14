@@ -25,7 +25,7 @@ RESET=`tput sgr0`
 
 echo "${BG_MAGENTA}${BOLD}Starting Execution${RESET}"
 
-gcloud spanner instances create banking-ops-instance --config=regional-$REGION --description="quickgcplab" --nodes=1
+gcloud spanner instances create banking-ops-instance --config=regional-$REGION --description="cloudwalabanda" --nodes=1
 
 gcloud spanner databases create banking-ops-db --instance=banking-ops-instance
 
@@ -83,7 +83,7 @@ VALUES
   (8, 4, 3, "Permanent Life Insurance", "PermLife", "Insurance LOB"),
   (9, 2, 2, "US Savings Bonds", "USSavBond", "Investment LOB")'
 
-curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Create%20and%20Manage%20Cloud%20Spanner%20Instances%20Challenge%20Lab/Customer_List_500.csv
+curl -LO https://raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Create%20and%20Manage%20Cloud%20Spanner%20Instances%20Challenge%20Lab/Customer_List_500.csv
 
 gcloud services disable dataflow.googleapis.com --force
 gcloud services enable dataflow.googleapis.com
@@ -108,9 +108,9 @@ EOF_CP
 
 gsutil mb gs://$DEVSHELL_PROJECT_ID
 
-touch quickgcplab
+touch cloudwalabanda
 
-gsutil cp emptyfile gs://$DEVSHELL_PROJECT_ID/tmp/quickgcplab
+gsutil cp emptyfile gs://$DEVSHELL_PROJECT_ID/tmp/cloudwalabanda
 
 gsutil cp Customer_List_500.csv gs://$DEVSHELL_PROJECT_ID
 
@@ -118,7 +118,7 @@ gsutil cp manifest.json gs://$DEVSHELL_PROJECT_ID
 
 sleep 100
 
-gcloud dataflow jobs run quickgcplab --gcs-location gs://dataflow-templates-"$REGION"/latest/GCS_Text_to_Cloud_Spanner --region="$REGION" --staging-location gs://$DEVSHELL_PROJECT_ID/tmp/ --parameters instanceId=banking-ops-instance,databaseId=banking-ops-db,importManifest=gs://$DEVSHELL_PROJECT_ID/manifest.json
+gcloud dataflow jobs run cloudwalabanda --gcs-location gs://dataflow-templates-"$REGION"/latest/GCS_Text_to_Cloud_Spanner --region="$REGION" --staging-location gs://$DEVSHELL_PROJECT_ID/tmp/ --parameters instanceId=banking-ops-instance,databaseId=banking-ops-db,importManifest=gs://$DEVSHELL_PROJECT_ID/manifest.json
 
 gcloud spanner databases ddl update banking-ops-db --instance=banking-ops-instance --ddl='ALTER TABLE Category ADD COLUMN MarketingBudget INT64;'
 

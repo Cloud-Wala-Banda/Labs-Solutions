@@ -87,7 +87,7 @@ curl -X POST -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "Co
 
 # Step 5: Download the image file
 echo "${BOLD}${MAGENTA}Downloading the image file...${RESET}"
-curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Use%20APIs%20to%20Work%20with%20Cloud%20Storage%20Challenge%20Lab/world.jpeg
+curl -LO https://raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Use%20APIs%20to%20Work%20with%20Cloud%20Storage%20Challenge%20Lab/world.jpeg
 
 # Step 6: Upload image file to bucket1
 echo "${BOLD}${CYAN}Uploading the image file to bucket1...${RESET}"

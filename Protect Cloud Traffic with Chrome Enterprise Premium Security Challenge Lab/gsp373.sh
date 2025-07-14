@@ -73,7 +73,7 @@ echo "${CYAN}${BOLD}Fetch the developer email and prepare details file${RESET}"
 EMAIL="$(gcloud config get-value core/account)"
 
 cat > details.json << EOF
-  App name: quickgcplab
+  App name: cloudwalabanda
   Authorized domains: $AUTH_DOMAIN
   Developer contact email: $EMAIL
 EOF
@@ -148,7 +148,7 @@ function random_question() {
         "Have you subscribed to the YouTube channel yet? [Y/N]"
         "Did you hit the subscribe button on our YouTube channel? [Y/N]"
         "Are you part of our growing community on YouTube? [Y/N]"
-        "Did you join the fun by subscribing to QUICK GCP LAB? [Y/N]"
+        "Did you join the fun by subscribing to cloud wala banda? [Y/N]"
         "Have you clicked the subscribe button for new tutorials? [Y/N]"
         "Are you a subscriber to our YouTube channel? [Y/N]"
         "Want to stay updated with our latest content? Subscribe now! [Y/N]"
@@ -206,7 +206,7 @@ case "${CHOICE^^}" in
         ;;
     N)
         random_subscribe_message
-        echo -e "${BOLD}${CYAN}https://www.youtube.com/@quickgcplab${RESET}"
+        echo -e "${BOLD}${CYAN}https://www.youtube.com/@cloudwalabanda${RESET}"
         ;;
     *)
         echo -e "${BOLD}${RED}Invalid choice! Please enter Y or N.${RESET}"

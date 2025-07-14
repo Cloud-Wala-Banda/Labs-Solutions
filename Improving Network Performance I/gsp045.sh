@@ -25,7 +25,7 @@ RESET=`tput sgr0`
 
 echo "${BG_MAGENTA}${BOLD}Starting Execution${RESET}"
 
-gcloud compute firewall-rules create iperf-testing --description=quickgcplab --direction=INGRESS --priority=1000 --network=default --action=ALLOW --rules=tcp:5001,udp:5001 --source-ranges=0.0.0.0/0
+gcloud compute firewall-rules create iperf-testing --description=cloudwalabanda --direction=INGRESS --priority=1000 --network=default --action=ALLOW --rules=tcp:5001,udp:5001 --source-ranges=0.0.0.0/0
 
 echo "${BG_RED}${BOLD}Congratulations For Completing The Lab !!!${RESET}"
 

@@ -8,7 +8,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Speaking%20with%20a%20Webpage%20-%20Streaming%20Speech%20Transcripts/gsp125-1.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Speaking%20with%20a%20Webpage%20-%20Streaming%20Speech%20Transcripts/gsp125-1.sh
 
 sudo chmod +x gsp125-1.sh
 
@@ -18,7 +18,7 @@ sudo chmod +x gsp125-1.sh
 ### Run the following Commands in CloudShell `New Tab`
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Speaking%20with%20a%20Webpage%20-%20Streaming%20Speech%20Transcripts/gsp125-2.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Speaking%20with%20a%20Webpage%20-%20Streaming%20Speech%20Transcripts/gsp125-2.sh
 
 sudo chmod +x gsp125-2.sh
 
@@ -28,7 +28,7 @@ sudo chmod +x gsp125-2.sh
 ### Run the following Commands in CloudShell `Previous Tab`
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Speaking%20with%20a%20Webpage%20-%20Streaming%20Speech%20Transcripts/gsp125-3.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Speaking%20with%20a%20Webpage%20-%20Streaming%20Speech%20Transcripts/gsp125-3.sh
 
 sudo chmod +x gsp125-3.sh
 
@@ -41,6 +41,6 @@ sudo chmod +x gsp125-3.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

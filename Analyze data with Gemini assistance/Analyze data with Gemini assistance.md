@@ -5,7 +5,7 @@
 ### 🚀 **Execute the Following Commands in Cloud Shell:**
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Analyze%20data%20with%20Gemini%20assistance/shell.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Analyze%20data%20with%20Gemini%20assistance/shell.sh
 
 sudo chmod +x shell.sh
 
@@ -18,6 +18,6 @@ sudo chmod +x shell.sh
 
 #### *Keep exploring and learning—success is within your reach!*
 
-#### Connect with the community for more insights and updates [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Connect with the community for more insights and updates [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

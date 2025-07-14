@@ -8,7 +8,7 @@
 export 
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Datastream%20PostgreSQL%20Replication%20to%20BigQuery/gsp1052-1.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Datastream%20PostgreSQL%20Replication%20to%20BigQuery/gsp1052-1.sh
 
 sudo chmod +x gsp1052-1.sh
 
@@ -46,7 +46,7 @@ SELECT PG_CREATE_LOGICAL_REPLICATION_SLOT('test_replication', 'pgoutput');
 exit
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Datastream%20PostgreSQL%20Replication%20to%20BigQuery/gsp1052-2.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Datastream%20PostgreSQL%20Replication%20to%20BigQuery/gsp1052-2.sh
 
 sudo chmod +x gsp1052-2.sh
 
@@ -75,6 +75,6 @@ sudo chmod +x gsp1052-2.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

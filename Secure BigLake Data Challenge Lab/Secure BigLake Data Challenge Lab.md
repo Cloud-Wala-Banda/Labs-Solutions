@@ -9,7 +9,7 @@
  export USER_2=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Secure%20BigLake%20Data%20Challenge%20Lab/arc129.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Secure%20BigLake%20Data%20Challenge%20Lab/arc129.sh
 
 sudo chmod +x arc129.sh
 
@@ -22,6 +22,6 @@ sudo chmod +x arc129.sh
 
 #### *Keep the momentum going—more success is just around the corner!* 🚀  
 
-### **Join the community for more resources and support:** **[Telegram Channel](https://t.me/quickgcplab)** &  **[Discussion Group](https://t.me/quickgcplabchats)**   
+### **Join the community for more resources and support:** **[Telegram Channel](https://t.me/cloudwalabanda)** &  **[Discussion Group](https://t.me/cloudwalabandachats)**   
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)  
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)  

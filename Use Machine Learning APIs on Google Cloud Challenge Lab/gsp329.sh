@@ -39,7 +39,7 @@ gcloud iam service-accounts keys create sample-sa-key.json --iam-account sample-
 
 export GOOGLE_APPLICATION_CREDENTIALS=${PWD}/sample-sa-key.json
 
-wget https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Use%20Machine%20Learning%20APIs%20on%20Google%20Cloud%20Challenge%20Lab/analyze-images-v2.py
+wget https://raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Use%20Machine%20Learning%20APIs%20on%20Google%20Cloud%20Challenge%20Lab/analyze-images-v2.py
 
 sed -i "s/'en'/'${LOCAL}'/g" analyze-images-v2.py
 

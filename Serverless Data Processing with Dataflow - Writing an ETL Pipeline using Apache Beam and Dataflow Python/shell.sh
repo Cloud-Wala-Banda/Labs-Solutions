@@ -69,7 +69,7 @@ gcloud services enable dataflow.googleapis.com
 echo "${YELLOW}${BOLD}Downloading Apache Beam pipeline script...${RESET}"
 rm my_pipeline.py
 
-curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Serverless%20Data%20Processing%20with%20Dataflow%20-%20Writing%20an%20ETL%20Pipeline%20using%20Apache%20Beam%20and%20Dataflow%20Python/my_pipeline.py
+curl -LO https://raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Serverless%20Data%20Processing%20with%20Dataflow%20-%20Writing%20an%20ETL%20Pipeline%20using%20Apache%20Beam%20and%20Dataflow%20Python/my_pipeline.py
 
 # Step 8: Execute batch scripts
 echo "${GREEN}${BOLD}Executing batch scripts...${RESET}"
@@ -116,7 +116,7 @@ gcloud storage cp schema.json gs://${PROJECT_ID}/
 
 # Step 14: Download JavaScript transformation script
 echo "${YELLOW}${BOLD}Downloading JavaScript transformation script...${RESET}"
-curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Serverless%20Data%20Processing%20with%20Dataflow%20-%20Writing%20an%20ETL%20Pipeline%20using%20Apache%20Beam%20and%20Dataflow%20Python/transform.js
+curl -LO https://raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Serverless%20Data%20Processing%20with%20Dataflow%20-%20Writing%20an%20ETL%20Pipeline%20using%20Apache%20Beam%20and%20Dataflow%20Python/transform.js
 
 # Step 15: Upload JavaScript script to Cloud Storage
 echo "${BLUE}${BOLD}Uploading JavaScript script to Cloud Storage...${RESET}"
@@ -125,7 +125,7 @@ gcloud storage cp *.js gs://${PROJECT_ID}/
 
 # Step 16: Run Dataflow job
 echo "${MAGENTA}${BOLD}Running Google Cloud Dataflow job...${RESET}"
-gcloud dataflow jobs run quickgcplab \
+gcloud dataflow jobs run cloudwalabanda \
     --gcs-location gs://dataflow-templates-$REGION/latest/GCS_Text_to_BigQuery \
     --region $REGION \
     --staging-location gs://$PROJECT_ID/temp \

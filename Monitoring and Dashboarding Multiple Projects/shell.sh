@@ -126,7 +126,7 @@ echo "${BOLD}${YELLOW}Create an Email Notification Channel${RESET}"
 cat > email-channel.json <<EOF_END
 {
   "type": "email",
-  "displayName": "quickgcplab",
+  "displayName": "cloudwalabanda",
   "description": "Awesome",
   "labels": {
     "email_address": "$USER_EMAIL"

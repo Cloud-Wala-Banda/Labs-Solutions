@@ -9,7 +9,7 @@ export INSTANCE=
 export VPC=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Build%20Infrastructure%20with%20Terraform%20on%20Google%20Cloud%20Challenge%20Lab/gsp345.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Build%20Infrastructure%20with%20Terraform%20on%20Google%20Cloud%20Challenge%20Lab/gsp345.sh
 
 sudo chmod +x gsp345.sh
 
@@ -22,6 +22,6 @@ sudo chmod +x gsp345.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

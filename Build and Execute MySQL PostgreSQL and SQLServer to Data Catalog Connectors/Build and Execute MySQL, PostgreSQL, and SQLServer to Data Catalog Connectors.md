@@ -8,7 +8,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Build%20and%20Execute%20MySQL%20PostgreSQL%20and%20SQLServer%20to%20Data%20Catalog%20Connectors/gsp814.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Build%20and%20Execute%20MySQL%20PostgreSQL%20and%20SQLServer%20to%20Data%20Catalog%20Connectors/gsp814.sh
 
 sudo chmod +x gsp814.sh
 
@@ -21,6 +21,6 @@ sudo chmod +x gsp814.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

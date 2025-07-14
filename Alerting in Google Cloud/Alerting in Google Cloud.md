@@ -5,7 +5,7 @@
 #### 1️⃣ Download and Execute the Script  
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Alerting%20in%20Google%20Cloud/shell.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Alerting%20in%20Google%20Cloud/shell.sh
 
 sudo chmod +x *.sh
 
@@ -19,7 +19,7 @@ sudo chmod +x *.sh
 #### *Well done!*
 
 #### 🌟 **Stay Connected for Updates:**  
-- 💬 Join the [Telegram Channel](https://t.me/quickgcplab)  
-- 🗣️ Participate in the [Discussion Group](https://t.me/quickgcplabchats)
+- 💬 Join the [Telegram Channel](https://t.me/cloudwalabanda)  
+- 🗣️ Participate in the [Discussion Group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

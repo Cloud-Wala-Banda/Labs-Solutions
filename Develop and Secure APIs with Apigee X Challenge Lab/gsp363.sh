@@ -66,7 +66,7 @@ cat > translate-product.json <<EOF_END
       "value": "yes"
     }
   ],
-  "description": "QUICK GCP LAB is ROCK",
+  "description": "cloud wala banda is ROCK",
   "environments": [
     "eval"
   ],

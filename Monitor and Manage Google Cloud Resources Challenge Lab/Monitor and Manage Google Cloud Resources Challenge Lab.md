@@ -12,7 +12,7 @@ export REGION=
 export BUCKET_USER=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Monitor%20and%20Manage%20Google%20Cloud%20Resources%20Challenge%20Lab/arc101.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Monitor%20and%20Manage%20Google%20Cloud%20Resources%20Challenge%20Lab/arc101.sh
 
 sudo chmod +x arc101.sh
 
@@ -25,6 +25,6 @@ sudo chmod +x arc101.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

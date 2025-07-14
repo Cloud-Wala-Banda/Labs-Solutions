@@ -5,7 +5,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Securing%20Compute%20Engine%20Applications%20and%20Resources%20using%20Chrome%20Enterprise%20Premium/gsp1033.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Securing%20Compute%20Engine%20Applications%20and%20Resources%20using%20Chrome%20Enterprise%20Premium/gsp1033.sh
 
 sudo chmod +x gsp1033.sh
 
@@ -18,6 +18,6 @@ sudo chmod +x gsp1033.sh
 
 #### *Fantastic job!*  
 
-#### Don't forget to join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion Group](https://t.me/quickgcplabchats)  
+#### Don't forget to join the [Telegram Channel](https://t.me/cloudwalabanda) & [Discussion Group](https://t.me/cloudwalabandachats)  
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)

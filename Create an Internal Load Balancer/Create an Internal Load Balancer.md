@@ -5,7 +5,7 @@
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Create%20an%20Internal%20Load%20Balancer/gsp216.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Create%20an%20Internal%20Load%20Balancer/gsp216.sh
 
 sudo chmod +x *.sh
 
@@ -19,7 +19,7 @@ sudo chmod +x *.sh
 #### *Well done!*
 
 #### 🌐 **Stay Connected with the Community:**  
-- 📢 Follow the [Telegram Channel](https://t.me/quickgcplab)  
-- 💬 Participate in the [Discussion Group](https://t.me/quickgcplabchats)
+- 📢 Follow the [Telegram Channel](https://t.me/cloudwalabanda)  
+- 💬 Participate in the [Discussion Group](https://t.me/cloudwalabandachats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Cloud Wala Banda](https://www.youtube.com/@cloudwalabanda)
