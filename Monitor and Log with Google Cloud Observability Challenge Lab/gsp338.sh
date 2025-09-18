@@ -83,7 +83,7 @@ export MY_GCE_INSTANCE_ZONE=$ZONE
 cd /work
 go mod init go/video/main
 go mod tidy
-go run /work/go/video/main.go
+go run /work/go/video/main.go &
 EOF_START
 
 gcloud compute instances add-metadata video-queue-monitor \
