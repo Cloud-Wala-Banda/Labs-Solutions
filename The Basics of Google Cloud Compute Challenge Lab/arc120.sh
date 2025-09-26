@@ -53,6 +53,9 @@ sudo systemctl start nginx
 
 EOF_END
 
+# Disable OS Login on the instance to avoid Permission denied (publickey) error
+gcloud compute instances add-metadata my-instance --zone=$ZONE --metadata enable-oslogin=FALSE --project=$DEVSHELL_PROJECT_ID
+
 gcloud compute scp prepare_disk.sh my-instance:/tmp --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
 
 gcloud compute ssh my-instance --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/prepare_disk.sh"
