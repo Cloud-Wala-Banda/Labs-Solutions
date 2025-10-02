@@ -36,11 +36,14 @@ RANDOM_BG_COLOR=${BG_COLORS[$RANDOM % ${#BG_COLORS[@]}]}
 
 echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}Starting Execution${RESET}"
 
-# Step 0: Get REGION2 from user input
-echo "${BOLD}${CYAN}Getting REGION2 from user${RESET}"
+# Step 0: Get REGION2 from user input (region for VM instance in TASK 3)
+echo "${BOLD}${CYAN}Getting region for VM instance (TASK 3)${RESET}"
 get_and_export_region2() {
-  read -p "${BOLD}${CYAN}Please Enter REGION2 : ${RESET}" REGION2
+  echo "${BOLD}${YELLOW}Please enter the region where you need to create the VM instance for TASK 3${RESET}"
+  echo "${BOLD}${CYAN}Example: us-central1, europe-west1, asia-southeast1${RESET}"
+  read -p "${BOLD}${GREEN}Enter the region for VM instance (TASK 3): ${RESET}" REGION2
   export REGION2
+  echo "${BOLD}${GREEN}Region set to: $REGION2${RESET}"
 }
 
 get_and_export_region2
