@@ -5,7 +5,7 @@
 ### 🚀 Run the following commands in **Cloud Shell**:
 
 ```bash
-curl -LO raw.githubusercontent.com/IshuSinghSE/Labs-Solutions/refs/heads/patch-1/Secure%20a%20Public%20Storage%20Bucket%20-%20gcloud/shell.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Secure%20a%20Public%20Storage%20Bucket%20-%20gcloud/shell.sh
 
 sudo chmod +x shell.sh
 
