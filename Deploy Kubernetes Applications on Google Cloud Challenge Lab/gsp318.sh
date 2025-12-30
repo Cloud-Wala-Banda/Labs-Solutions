@@ -1,6 +1,8 @@
 clear
 
-#!/bin/bash
+#!/usr/bin/env bash
+set -CEeuo pipefail
+
 # Define color variables
 
 BLACK=`tput setaf 0`
@@ -82,7 +84,7 @@ export REGION=$(gcloud compute project-info describe \
 
 # Step 2: Sourcing setup script...
 echo "${MAGENTA}${BOLD}Sourcing setup script...${RESET}"
-source <(gsutil cat gs://cloud-training/gsp318/marking/setup_marking_v2.sh)
+source <(gsutil cat gs://spls/gsp318/script.sh)
 
 # Step 3: Downloading and extracting application...
 echo "${GREEN}${BOLD}Downloading and extracting application...${RESET}"
@@ -104,24 +106,11 @@ EOF
 echo "${BLUE}${BOLD}Building Docker image...${RESET}"
 docker build -t $DCKR_IMG:$TAG .
 
-# Step 6: Executing Step 1 script...
-echo "${MAGENTA}${BOLD}Executing Step 1 script...${RESET}"
-cd ..
-./step1_v2.sh
-
-# Step 7: Running Docker container...
+# Step 6: Running Docker container...
 echo "${CYAN}${BOLD}Running Docker container...${RESET}"
-cd valkyrie-app
 docker run -d -p 8080:8080 $DCKR_IMG:$TAG
 
-# Step 8: Executing Step 2 script...
-echo "${MAGENTA}${BOLD}Executing Step 2 script...${RESET}"
-cd ..
-./step2_v2.sh
-
-cd valkyrie-app
-
-# Step 9: Creating Artifact Repository...
+# Step 7: Creating Artifact Repository...
 echo "${YELLOW}${BOLD}Creating Artifact Repository...${RESET}"
 gcloud artifacts repositories create $REPO \
     --repository-format=docker \
@@ -129,13 +118,13 @@ gcloud artifacts repositories create $REPO \
     --description="awesome lab" \
     --async
 
-# Step 10: Configuring Docker authentication...
+# Step 8: Configuring Docker authentication...
 echo "${BLUE}${BOLD}Configuring Docker authentication...${RESET}"
 gcloud auth configure-docker $REGION-docker.pkg.dev --quiet
 
 sleep 30
 
-# Step 11: Tagging and pushing Docker image...
+# Step 9: Tagging and pushing Docker image...
 echo "${CYAN}${BOLD}Tagging and pushing Docker image...${RESET}"
 
 Image_ID=$(docker images --format='{{.ID}}')
@@ -144,15 +133,15 @@ docker tag $Image_ID $REGION-docker.pkg.dev/$DEVSHELL_PROJECT_ID/$REPO/$DCKR_IMG
 
 docker push $REGION-docker.pkg.dev/$DEVSHELL_PROJECT_ID/$REPO/$DCKR_IMG:$TAG
 
-# Step 12: Updating Kubernetes deployment...
+# Step 10: Updating Kubernetes deployment...
 echo "${GREEN}${BOLD}Updating Kubernetes deployment...${RESET}"
 sed -i s#IMAGE_HERE#$REGION-docker.pkg.dev/$DEVSHELL_PROJECT_ID/$REPO/$DCKR_IMG:$TAG#g k8s/deployment.yaml
 
-# Step 13: Configuring Kubernetes cluster...
+# Step 11: Configuring Kubernetes cluster...
 echo "${YELLOW}${BOLD}Configuring Kubernetes cluster...${RESET}"
 gcloud container clusters get-credentials valkyrie-dev --zone $ZONE
 
-# Step 14: Deploying application to Kubernetes...
+# Step 12: Deploying application to Kubernetes...
 echo "${BLUE}${BOLD}Deploying application to Kubernetes...${RESET}"
 kubectl create -f k8s/deployment.yaml
 kubectl create -f k8s/service.yaml
