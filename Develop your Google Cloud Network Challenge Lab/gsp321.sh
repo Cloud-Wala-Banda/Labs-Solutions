@@ -201,6 +201,28 @@ for USER in $USERS; do
   fi
 done
 
+echo "${YELLOW}${BOLD}Task 8. ${RESET}""${WHITE}${BOLD}Creating Uptime Check${RESET}"
+
+# Wait for the Load Balancer to provision an external IP
+echo "Waiting for WordPress external IP..."
+WP_EXTERNAL_IP=""
+while [ -z "$WP_EXTERNAL_IP" ]; do
+  sleep 10
+  WP_EXTERNAL_IP=$(kubectl get svc -l app=wordpress -o jsonpath="{.items[0].status.loadBalancer.ingress[0].ip}")
+done
+
+echo "WordPress IP found: $WP_EXTERNAL_IP"
+
+# Create Uptime Check (Fixed Syntax)
+gcloud monitoring uptime create "WordPress Uptime Check" \
+    --resource-type="uptime-url" \
+    --resource-labels="host=$WP_EXTERNAL_IP" \
+    --path="/"
+
+echo "${RED}${BOLD}Task 8. ${RESET}""${WHITE}${BOLD}Create a monitoring uptime check${RESET}" "${GREEN}${BOLD}Completed${RESET}"
+
+
+
 echo "${RED}${BOLD}Task 9. ${RESET}""${WHITE}${BOLD}Provide access for an additional engineer${RESET}" "${GREEN}${BOLD}Completed${RESET}"
 
 echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${GREEN}${BOLD}Completing the Lab !!!${RESET}"
