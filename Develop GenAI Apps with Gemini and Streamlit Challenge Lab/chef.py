@@ -27,7 +27,7 @@ vertexai.init(project=PROJECT_ID, location=LOCATION)
 
 @st.cache_resource
 def load_models():
-    text_model_flash = GenerativeModel("gemini-2.0-flash-001")
+    text_model_flash = GenerativeModel("gemini-3.5-flash")
     return text_model_flash
 
 
