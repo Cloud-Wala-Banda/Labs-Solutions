@@ -5,11 +5,16 @@
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
 ```
-curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/User%20Authentication%20Identity-Aware%20Proxy/gsp499.sh
+curl -LO https://raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/User%20Authentication%20Identity-Aware%20Proxy/gsp499.sh
 
-sudo chmod +x *.sh
+# Replace Python 3.9 with Python 3.13
+sed -i 's/python39/python313/g' gsp499.sh
 
-./*.sh
+# Or, if the script still contains python37:
+# sed -i 's/python37/python313/g' gsp499.sh
+
+chmod +x gsp499.sh
+./gsp499.sh
 ```
 
 # 🎉 Woohoo! You Did It! 🎉
