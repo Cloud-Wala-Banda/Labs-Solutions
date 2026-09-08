@@ -31,7 +31,7 @@ gcloud compute instances create green --project=$DEVSHELL_PROJECT_ID --zone=$ZON
 
 gcloud compute --project=$DEVSHELL_PROJECT_ID firewall-rules create allow-http-web-server --direction=INGRESS --priority=1000 --network=default --action=ALLOW --rules=tcp:80,icmp --source-ranges=0.0.0.0/0 --target-tags=web-server
 
-gcloud compute instances create test-vm --machine-type=f1-micro --subnet=default --zone=$ZONE
+gcloud compute instances create test-vm --machine-type=e2-micro --subnet=default --zone=$ZONE
 
 gcloud iam service-accounts create network-admin --description="Service account for Network Admin role" --display-name="Network-admin"
 
