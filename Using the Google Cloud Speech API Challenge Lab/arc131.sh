@@ -20,9 +20,10 @@ BOLD=`tput bold`
 RESET=`tput sgr0`
 #----------------------------------------------------start--------------------------------------------------#
 
-echo "${YELLOW}${BOLD}Starting${RESET}" "${GREEN}${BOLD}Execution${RESET}"
+echo "${YELLOW}${BOLD}Starting${RESET} ${GREEN}${BOLD}Execution${RESET}"
 
-cat > "$REQUEST1" <<EOF
+# 1. Create English Request JSON
+cat << 'EOF' > "$REQUEST1"
 {
   "config": {
     "encoding": "LINEAR16",
@@ -35,10 +36,12 @@ cat > "$REQUEST1" <<EOF
 }
 EOF
 
+echo "Calling Speech-to-Text API for English..."
 curl -s -X POST -H "Content-Type: application/json" --data-binary @"$REQUEST1" \
-"https://speech.googleapis.com/v1/speech:recognize?key=$API_KEY" > $RESPONSE1
+"https://speech.googleapis.com/v1/speech:recognize?key=$API_KEY" > "$RESPONSE1"
 
-cat > "$REQUEST2" <<EOF
+# 2. Create Spanish Request JSON
+cat << 'EOF' > "$REQUEST2"
 {
   "config": {
     "encoding": "FLAC",
@@ -50,9 +53,17 @@ cat > "$REQUEST2" <<EOF
 }
 EOF
 
+echo "Calling Speech-to-Text API for Spanish..."
 curl -s -X POST -H "Content-Type: application/json" --data-binary @"$REQUEST2" \
-"https://speech.googleapis.com/v1/speech:recognize?key=$API_KEY" > $RESPONSE2
+"https://speech.googleapis.com/v1/speech:recognize?key=$API_KEY" > "$RESPONSE2"
 
-echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${GREEN}${BOLD}Completing the Lab !!!${RESET}"
+# 3. Upload files to Cloud Storage to pass the lab checks
+echo "Uploading files to Google Cloud Storage bucket: gs://$BUCKET_NAME"
+gcloud storage cp "$REQUEST1" "gs://${BUCKET_NAME}/speech_request.json"
+gcloud storage cp "$RESPONSE1" "gs://${BUCKET_NAME}/response.json"
+gcloud storage cp "$REQUEST2" "gs://${BUCKET_NAME}/speech_request_sp.json"
+gcloud storage cp "$RESPONSE2" "gs://${BUCKET_NAME}/response_sp.json"
+
+echo "${RED}${BOLD}Congratulations${RESET} ${WHITE}${BOLD}for${RESET} ${GREEN}${BOLD}Completing the Lab !!!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
